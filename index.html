@@ -50,7 +50,6 @@
     list-style: none;
   }
   ul.features li {
-    background: linear-gradient(90deg, #e6ffe6, #ccffcc);
     margin-bottom: 12px;
     padding: 15px 20px;
     border-left: 8px solid #006400; /* Kenyan green accent */
@@ -62,6 +61,14 @@
     transform: translateX(5px);
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
+
+  /* Distinct background colors */
+  ul.features li:nth-child(1) { background: #d0f0c0; } /* light green */
+  ul.features li:nth-child(2) { background: #a0522d; color: #fff; } /* sienna brown */
+  ul.features li:nth-child(3) { background: #2f4f4f; color: #fff; } /* dark slate gray */
+  ul.features li:nth-child(4) { background: #98fb98; } /* pale green */
+  ul.features li:nth-child(5) { background: #556b2f; color: #fff; } /* dark olive green */
+  ul.features li:nth-child(6) { background: #8b4513; color: #fff; } /* saddle brown */
 
   /* Buttons */
   .btn {
